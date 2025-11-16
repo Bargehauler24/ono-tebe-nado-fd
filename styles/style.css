@@ -201,18 +201,6 @@
     text-transform: uppercase;
 }
 
-.card_type_film {
-    background-image: url(../images/card-lot-01.jpg);
-}
-
-.card_type_book {
-    background-image: url(../images/card-lot-02.jpg);
-}
-
-.card_type_picture {
-    background-image: url(../images/card-lot-03.jpg);
-}
-
 .card-link {
     color: #ff0000;
     text-decoration: none;
@@ -258,7 +246,7 @@
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    margin: 36px 0px 0px 47px;
+    margin-left: 47px;
 }
 
 .about__logo-image {
@@ -267,6 +255,7 @@
 }
 
 .about__title {
+    margin-top: 98px;
     margin-bottom: 100px;
 }
 
@@ -276,7 +265,6 @@
     gap: 24px;
     font-size: 20px;
     line-height: 24px;
-    margin-block-start: 136px;
 }
 
 .about__text:first-child {
@@ -337,8 +325,6 @@
     width: 48px;
     height: 48px;
 }
-
-/* Оригинальные псевдо-классы из вашего кода */
 
 .underline {
     position: relative;
